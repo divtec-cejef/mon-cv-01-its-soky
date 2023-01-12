@@ -1,12 +1,14 @@
 
 h1{
-    font-family: Arial;
+    font-family: Montserrat;
+    font-weight: 700;
     color: darkturquoise;
     text-align: center;
 }
 
 h2{
-    font-family: Arial;
+    font-family: Montserrat;
+    font-weight: 700;
     color: darkturquoise;
 }
 p{
@@ -15,4 +17,8 @@ p{
 p{
     text-align: center;
     font-size: 1.5rem;
+}
+img{
+    
+    margin: 0;
 }
