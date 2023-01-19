@@ -1,24 +1,42 @@
+body {
+    color: white;
+    background: black;
+    font-size: 1.3em;
+    margin-left: 25%;
 
-h1{
-    font-family: Montserrat;
-    font-weight: 700;
-    color: darkturquoise;
+}
+
+div h2 {
+    color: white;
     text-align: center;
+    text-underline-position: under;
 }
 
-h2{
-    font-family: Montserrat;
-    font-weight: 700;
+h2 {
+    text-decoration: underline;
     color: darkturquoise;
 }
-p{
 
+header {
+    display: flex;
 }
-p{
-    text-align: center;
-    font-size: 1.5rem;
+
+img {
+    max-width: 100%;
+    height: auto;
 }
-img{
-    
-    margin: 0;
+
+a {
+    color: darkturquoise;
+}
+
+a:hover {
+    color: blueviolet;
+    text-shadow: turquoise 1px 1px ;
+}
+
+footer {
+    border-top: dotted darkturquoise;
+    margin-top: 5%;
+    margin-left: 0%;
 }
